@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+      <!-- nav  -->
+        <div class="container">
+            <div class="nav">
+                <div class="nav-logo-text">
+                    Log in to get started
+                </div>
+                <div class="nav-logo">
+                    <img src="img/logo.png" width="100%">
+                </div>
+                <div class="btns">
+                    <div class="btn signin">Sign In</div>
+                    <div class="btn signup"> Sign Up</div>
+                </div>
+            </div>
+            <!-- section1 -->
+            <section>
+                <div class="section-left">
+                    <div class="section-left-heading">
+                        Unlock Your Potential:<br> <p>Explore Our Web Dev Quiz!</p>
+                    </div>
+                </div>
+                <div class="section-right">
+                    <img class="img" src="img/bg-18.webp">
+                </div>
+            </section>
+        </div>
+
+        <!-- login form  -->
+        <div class="container1 opacity "> 
+            <div class="login-page display " id="login-page">
+                <i class="fas fa-window-close close"></i>
+                <div class="form-container sign-up-container">
+                    <form action="#">
+                      <h1>Create Account</h1>
+                      <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                      <span class="register-text">or use your email for registration</span>
+                      <input id="SignupName" type="text" placeholder="Name" />
+                      <input id='SignupEmail' type="email" placeholder="Email" />
+                      <input id="SignupPassword" type="password" placeholder="Password" />
+                      <div id="signup2" class="colorbtn form-btn">Sign Up</div>
+                    </form>
+                  </div>
+                  <div class="form-container sign-in-container">
+                    <form action="#">
+                      <h1>Sign in</h1>
+                      <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                      </div>
+                      <span>or use your account</span>
+                      <input id="signin_email" type="email" placeholder="Email" />
+                      <input id="signin_password" type="password " placeholder="Password" />
+                      <a href="#">Forgot your password?</a>
+                      <div id="signin2" class="colorbtn form-btn ">Sign In</div>
+                    </form>
+                  </div>
+                  <div class="overlay-container">
+                    <div class="overlay">
+                      <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p class="paragraph">
+                          To keep connected with us please login with your personal info
+                        </p>
+                        <div class="hide form-btn" id="signIn">Sign In</div>
+                      </div>
+                      <div class="overlay-panel overlay-right">
+                        <h1>Hello, Friend!</h1>
+                        <p class="paragraph">Enter your personal details and start Your Quiz</p>
+                        <div class="hide form-btn" id="signUp">Sign up</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+       <!-- front page   -->
+       
+       <div class="front-page display">
+        <div class="front-page-nav ">
+          <div class="nav-logo-text">
+            <span class="welcome">Welcome</span>,<span class="user-name">'Usama'</span>
+        </div>
+        <div class="nav-logo">
+            <img src="img/logo.png" width="100%">
+        </div>
+        </div>
+          <div class="front-page-main-content">
+            <div class="front-page-main-content-left">
+             <div class="front-page-main-content-left-heading">
+              <span class="front-page-heading-1">Welcome to the</span>
+              <span class="front-page-heading-2">Frontend Quiz!</span>
+              <span class="front-page-paragraph">Pick a subject to get started</span>
+             </div>
+            </div>
+            <div class="front-page-main-content-right">
+              <div class="front-page-right-img-1 front-page-right-img" id="HTML" >
+                <span class="icon"><i class="fab fa-html5"></i></span>
+                <span class="icon-text">HTML</span>
+              </div>
+              <div class="front-page-right-img-2 front-page-right-img" id="CSS">
+                <span class="icon"><i class="fab fa-css3-alt"></i></span>
+                <span class="icon-text">CSS</span>
+              </div>
+              <div class="front-page-right-img-3 front-page-right-img" id="JavaScript">
+                <span class="icon"><i class="fab fa-js-square"></i></span>
+                <span class="icon-text">JavaScript</span>
+              </div>
+              <div class="front-page-right-img-4 front-page-right-img" id="Accessibilty">
+                <span class="icon"><i class="fab fa-accessible-icon"></i></span>
+                <span class="icon-text">Accessibility</span>
+              </div>
+              
+            </div>
+          </div>
+        
+        
+       </div>
+       <div class="front-page display ">
+        <div class="front-page-nav ">
+          <div class="nav-logo-text">
+            <span class="welcome">Welcome</span>,<span class="user-name">Usama</span>
+        </div>
+        <div class="nav-logo">
+            <img src="img/logo.png" width="100%">
+        </div>
+        </div>
+          <div class="front-page-main-content">
+            <!-- <div class="front-page-main-content-left">
+              <div class="font-page-main-content-left-questions">
+                <div class="quiz-subject-content"><span class="quiz-subject">Javascript </span><p>Quiz</p></div>
+                <div class="question-numbers">
+                  <span class="question-numbers-text">Questions</span>
+                  <span class="active-question-number">06/</span>
+                  <span class="total-question-number">20</span>
+                </div>
+               <div class="front-page-main-content-left-question">
+                 <div class="question">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, ea.
+                 </div>
+               </div>
+              </div>
+              
+            </div>
+            <div class="front-page-main-content-right grid">
+              <div class="timer-div"><span class="time-left-text">Left:</span><span class="timer">60</span></div>
+              <div class="front-page-right-option-1 front-page-right-option">
+                <input  type="radio" name="options" class='inputAns' id="1">
+                <label for="1" class="icon-text">Lorem, ipsum.</label>
+              </div>
+              <div class="front-page-right-option-2 front-page-right-option">
+                <input  type="radio" name="options" class='inputAns' id="2">
+                <label for="2" class="icon-text">Lorem, ipsum.</label>
+              </div>
+              <div class="front-page-right-option-3 front-page-right-option">
+               <input  type="radio" name="options" class='inputAns' id="3">
+                <label for="3" class="icon-text">Lorem, ipsum.</label>
+              </div>
+              <div class="front-page-right-option-4 front-page-right-option">
+                <input  type="radio" name="options" class='inputAns' id="4">
+                <label for="4" class="icon-text">Lorem, ipsum.</label>
+              </div>
+              
+            </div> -->
+            <div class="btn-class">
+              <div class="questions-btn">Next</div>
+            </div>
+          </div>
+        
+        
+       </div> 
+
+       <!-- result section  -->
+       <div class="front-page result  display">
+        <div class="front-page-nav ">
+          <div class="nav-logo-text">
+            <span class="welcome">Welcome</span>,<span class="user-name">Usama</span>
+        </div>
+        <div class="nav-logo">
+            <img src="img/award2.png" width="100%">
+        </div>
+        </div>
+          
+           <div class="result-container">
+            <div class="result-container-content">
+                <div class="result-container-content-heading">Quiz Result</div>
+                <div class="result-container-content-img"><img id="img" src="img/award3.png" alt=""></div>
+                <div class="congratulation-text">
+                  Congratulations!
+                </div>
+               <div class=" result-container-content-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, unde.</div>
+               <div class="result-container-content-score-text">Your Score</div>
+               <div class="result-container-content-score">
+                <span class="your-score">20</span>
+                <span class="slash">/</span>
+                <span class="total-score">20</span>
+               </div>
+               <div class="btn-results"><div class="btn1">Take New Quiz</div></div>
+
+
+            </div>
+           </div>
+        
+       
+
+    </div>
+   
+   
+    <!-- <script src="https://kit.fontawesome.com/fc864b342e.js" crossorigin="anonymous"></script> -->
+    <script src="js/script.js"></script>
+</body>
+</html>
