@@ -118,9 +118,9 @@ const htmlQuestions = [
   },
  
   {
-      question: "What is the correct HTML for inserting an image?",
-      options: ["<img alt='Image'>", "<image alt='Image'>", "<img alt='Image'>#</img>", "<image>#</image>"],
-      answer: "<img alt='Image'>"
+        question: "How can you create an email link in HTML?",
+        options: ["<link>info@example.com</link>", "<mail>info@example.com</mail>", "<email>info@example.com</email>", "<link>info@example.com</link>"],
+        answer: "<a href='mailto:info@example.com'>Send Email</a>"
   },
   {
       question: "What is the purpose of the HTML <meta> tag?",
